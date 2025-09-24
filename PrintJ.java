@@ -1,9 +1,17 @@
 public class PrintJ {
     
     public static void main(String[] args) {
-
+        if (args.length > 1) { 
         printJ(args[0]);
         printM(args[1]);
+        }
+        else if (args.length ==2) {
+            printJ(args[0]);
+            printM(args[1]);
+        }
+            else { 
+              System.out.println("This program needs two arguments.");
+        }
     }
     /** This method prints a letter of the alphabet using the character
         passed as a parameter

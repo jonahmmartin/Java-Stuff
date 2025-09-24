@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+
+        printJ(args[0]);
+    }
+
+    /** This method prints a letter of the alphabet using the character
+        passed as a parameter
+        @param J the character used to print the letter
+    */
+    static void printJ(String letter) {
+        System.out.println(letter + letter + letter + letter + letter);
+        System.out.println("   " + letter + "   ");
+        System.out.println("   " + letter + "   ");
+        System.out.println("  " + letter + "   ");
+        System.out.println(""letter+ letter + "   ");
+    }
+}
